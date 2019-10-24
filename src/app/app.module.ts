@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { CshbotComponent } from './cshbot/cshbot.component';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { AboutComponent } from './about/about.component';
     { path: '', component: HomeComponent },
     { path: 'about', component: AboutComponent }
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
