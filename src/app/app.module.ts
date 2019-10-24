@@ -13,7 +13,8 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
-    { path: 'about', component: AboutComponent }
+    { path: 'about', component: AboutComponent },
+    { path: 'cshbot', component: CshbotComponent }
   ]) ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
   bootstrap:    [ AppComponent ]
