@@ -1,3 +1,4 @@
-function hello()  {
-  alert('Hello Banjo!!!');
-}
+(function hello() {
+    alert('Hello from custom.js in scripts directory!!!  KABOOOM!!!');
+})()
+
