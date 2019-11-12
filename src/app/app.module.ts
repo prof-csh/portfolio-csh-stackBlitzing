@@ -11,15 +11,19 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
+import { Thingbot } from '../thingbot/thingbot.component';
+
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'cshbot', component: CshbotComponent }
+    { path: 'cshbot', component: CshbotComponent },
+    { path: 'thingbob', component: ThingbotComponent }
+
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ThingbotComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
