@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CalcService {
  
   constructor() { }
@@ -12,6 +13,8 @@ export class CalcService {
     for (let val of params) {
         result += val;
     };
+
+    
 
     console.log("Hello from CalcService!!!");
 
