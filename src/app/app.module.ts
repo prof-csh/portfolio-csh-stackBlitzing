@@ -11,7 +11,6 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
-import { Thingbot } from '../thingbot/thingbot.component';
 
 
 
@@ -19,11 +18,10 @@ import { Thingbot } from '../thingbot/thingbot.component';
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'cshbot', component: CshbotComponent },
-    { path: 'thingbob', component: ThingbotComponent }
+    { path: 'cshbot', component: CshbotComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ThingbotComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
