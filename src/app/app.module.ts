@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CshbotComponent } from './cshbot/cshbot.component';
 
+import { CalcService } from '../calc.service';
+import { CshbotService } from '../cshbot.service';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -17,6 +20,7 @@ import { CshbotComponent } from './cshbot/cshbot.component';
     { path: 'cshbot', component: CshbotComponent }
   ]) ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
+  providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
