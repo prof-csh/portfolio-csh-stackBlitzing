@@ -12,6 +12,7 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 
+import { TheoComponent } from '../theo/theo.component';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { CshbotService } from '../cshbot.service';
     { path: 'cshbot', component: CshbotComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, TheoComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
