@@ -12,7 +12,7 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 
-import { TheoComponent } from '../theo/theo.component';
+//import { TheoComponent } from '../theo/theo.component';
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { TheoComponent } from '../theo/theo.component';
     { path: 'cshbot', component: CshbotComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, TheoComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
