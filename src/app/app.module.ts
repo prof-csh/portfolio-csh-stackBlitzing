@@ -12,6 +12,9 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 
+import { JDComponent } from '../jd.component';
+
+
 //import { TheoComponent } from '../theo/theo.component';
 
 
